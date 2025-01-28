@@ -1,0 +1,24 @@
+1.Code a LExer
+2.Defining your grammmar
+3.Code a parser->AST
+(3.5) Intermediary Language
+4.Code a code generator
+
+Higher-Level Language--> lower Level Language
+
+.c->assembly
+
+assembly-> Machine Code (Assembling)
+
+Program 
+- Function Declaration (main) of type int
+    - return statement
+        - expression
+            -binary operation
+                -lhs
+                -rhs
+End of the Program
+
+
+push esp
+mov esp,ebp
