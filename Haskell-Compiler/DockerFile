@@ -1,0 +1,5 @@
+FROM haskell:latest
+WORKDIR /app
+COPY . .
+RUN ghc -o compiler Main.hs
+CMD ["./compiler"]
